@@ -17,3 +17,11 @@ Browser extension that adds missing functionality to the Webplayer on the RÚV w
 
 ## Installation
 
+Get it from the browser extension stores:
+
+ * Google Chrome: https://chrome.google.com/webstore/detail/sarpurinn-vi%C3%B0b%C3%A6tur/bckbhgfffkcnfdnblbnhjbldpiikfpjf
+ * Mozilla Firefox: _in progress_
+ * Microsoft Edge: _in progress_
+ * Opera: _in progress_
+ * Brave: _in progress_
+ 
