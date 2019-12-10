@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+    <meta charset="utf-8">
+    <style>
+      div {
+        margin:10px 20px;
+      }
+    </style>
+  </head>
+
+  <body>
+
+    <h2>Stillingar fyrir RÚV Sarpinn</h2>
+    <form>
+        <div>
+          <label>Æskileg myndbandsgæði <select class="video-quality" id="videoQuality">
+              <option value="3816000">1080p</option>
+              <option value="2544000">720p</option>
+              <option value="1272000">480p</option>
+              <option value="848000">360p</option>
+              <option value="530000">240p</option>
+              <option value="0">Sjálfvirkt</option>
+            </select>
+          </label>
+        </div>
+        
+        <!--div>
+            <label for="iceSubtitles"><input type="checkbox" id="iceSubtitles"/>Alltaf kveikja á íslenskum texta</label>
+        </div-->
+
+        <div>
+            <label for="autoPlayNext"><input type="checkbox" id="autoPlayNext"/>Sjálfvirkt spilun á næsta þætti (ef mögulegt)</label>
+        </div>
+
+        <div>
+            <label for="startPlayOnLoad"><input type="checkbox" id="startPlayOnLoad"/>Byrja að spila strax</label>
+        </div>
+
+        <div>
+            <label for="showNextUp"><input type="checkbox" id="showNextUp"/>Sýna hvað verður spilað næst</label>
+        </div>
+
+        <div>
+            <label for="rememberLastLocation"><input type="checkbox" id="rememberLastLocation"/>Muna hvar ég hætti að horfa síðast</label>
+        </div>
+        
+        <button type="button" id="savebutton">Vista Stillingar</button>
+
+        <div id="status"></div>
+    </form>
+
+    <script src="../js/lib/jquery-3.4.1.min.js"></script>
+    <script src="options.js"></script>
+
+  </body>
+
+</html>

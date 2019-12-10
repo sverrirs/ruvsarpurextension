@@ -1,0 +1,5 @@
+.card-selected { 
+  border: 6px solid red!important;
+  z-index: 9999;
+  background: slategray;
+}
